@@ -1,0 +1,30 @@
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .login {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .login:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Blue */
+  .signup {
+    border-color: #2196F3;
+    color: dodgerblue;
+  }
+  
+  .signup:hover {
+    background: #2196F3;
+    color: white;
+  }

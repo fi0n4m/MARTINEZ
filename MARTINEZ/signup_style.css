@@ -1,0 +1,70 @@
+
+  /* Signup Page Styles */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bghey.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #0e0101;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #3d53ce;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .container {
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 20px;
+    background: #0a0a0a;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .registerbtn {
+    background-color: #458cdd;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  
+  
+ 
